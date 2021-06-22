@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UserProfile>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <Password></Password>
+    <Email></Email>
+    <Picture location="localhost:port/path"></Picture>
+</UserProfile>
