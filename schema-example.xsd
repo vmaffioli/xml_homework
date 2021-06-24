@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNameSpace="http://www.myproject.com/Project" xmlns:tns="http://www.myproject.com/project" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNameSpace="http://www.myproject.com/project" xmlns:tns="http://www.myproject.com/project">
 	<element name="project" type="tns:project" />
+	<!-- complex type example -->
 	<complexType name="project">
 		<sequence>
 			<element name="name" type="string" />
@@ -10,4 +11,10 @@
 			<element name="phone" type="string" />
 		</sequence>
 	</complexType>
+	<!-- restriction example-->
+	<simpleType name="String15Chars">
+		<restriction base="string">
+			<maxLength value="15"/>
+		</restriction>
+	</simpleType>
 </schema>
