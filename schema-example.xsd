@@ -17,4 +17,11 @@
 			<maxLength value="15"/>
 		</restriction>
 	</simpleType>
+		<!-- enumeration example-->
+	<simpleType name="gender">
+		<restriction base="string">
+			<enumeration value="M"/>
+			<enumeration value="F"/>
+		</restriction>
+	</simpleType>
 </schema>
